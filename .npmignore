@@ -1,6 +1,8 @@
 .git
 .gitignore
 
+.idea
+
 node_modules
 src
 tsconfig.json

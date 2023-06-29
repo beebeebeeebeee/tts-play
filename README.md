@@ -1,4 +1,4 @@
-# tts
+# tts-play
 
 text-to-speech and play sound locally.
 
