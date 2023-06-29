@@ -1,0 +1,33 @@
+{
+    "name": "tts-play",
+    "version": "1.0.0",
+    "description": "Play sound from tts.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/beebeebeeebeee/tts-play.git"
+    },
+    "main": "dist/index.js",
+    "scripts": {
+        "start": "ts-node src/index.ts",
+        "build": "rimraf ./dist && tsc"
+    },
+    "keywords": [
+        "typescript",
+        "text-to-speech",
+        "tts",
+        "sound-play"
+    ],
+    "author": "Fung Mak",
+    "license": "ISC",
+    "dependencies": {
+        "google-tts-api": "^2.0.2",
+        "sound-play": "^1.1.0"
+    },
+    "devDependencies": {
+        "@types/node": "^18.16.3",
+        "@types/sound-play": "^1.1.0",
+        "rimraf": "^5.0.1",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.4"
+    }
+}
